@@ -9,3 +9,8 @@ function runTest(player){
     document.querySelector(".result-text").innerHTML=player;
     console.log(player)
 }
+
+// test math.random()
+
+console.log(Math.floor((Math.random()*(3-1+1))))
+// result -> 0,1,2
