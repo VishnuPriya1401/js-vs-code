@@ -1,4 +1,12 @@
 body{
+    background-color: cornsilk;
+    color: black;
+}
+button{
+    padding: 5px 15px;
+    border: none;
     background-color: brown;
-    color: white;
+    color: aliceblue;
+    border-radius: 6px;
+    cursor: pointer;
 }
