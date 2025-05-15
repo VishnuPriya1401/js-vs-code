@@ -1,6 +1,7 @@
 body{
     background-color: cornsilk;
     color: black;
+    font-family: arial;
 }
 button{
     padding: 5px 15px;
@@ -9,4 +10,16 @@ button{
     color: aliceblue;
     border-radius: 6px;
     cursor: pointer;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    font-weight: 700;
 }
